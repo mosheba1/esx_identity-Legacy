@@ -14,9 +14,9 @@ AddEventHandler('esx:loadingScreenOff', function()
 	loadingScreenFinished = true
 end)
 
-Citizen.CreateThread(function() --dev purp
-TriggerEvent('esx_identity:showRegisterIdentity')
-end)
+--Citizen.CreateThread(function() --dev purp
+--TriggerEvent('esx_identity:showRegisterIdentity')
+--end)
 RegisterNUICallback('ready', function(data, cb)
 	ready = true
 	cb(1)
