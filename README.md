@@ -10,3 +10,4 @@ How to Install
 Place it in your esx folder and add `start esx_identity` to your cfg
 
 
+DISCORD: https://discord.gg/xP67BKbk6A
